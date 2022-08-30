@@ -22,6 +22,7 @@ public class Baekjoon_1874 {
         stack.push(data++);
         sb.append("+").append("\n");
         while (!stack.isEmpty()){
+            System.out.println(stack);
             if(target[index] == stack.peek()){
                 stack.pop();
                 sb.append("-").append("\n");
